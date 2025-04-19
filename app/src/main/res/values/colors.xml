@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Light theme colors -->
+    <color name="light_primary">#6750A4</color>
+    <color name="light_primary_variant">#4F378B</color>
+    <color name="light_secondary">#9C27B0</color>
+    <color name="light_background">#FFF7F9</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_error">#B00020</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_on_secondary">#FFFFFF</color>
+    <color name="light_on_background">#1C1B1F</color>
+    <color name="light_on_surface">#1C1B1F</color>
+    
+    <!-- Dark theme colors -->
+    <color name="dark_primary">#D0BCFF</color>
+    <color name="dark_primary_variant">#9370DB</color>
+    <color name="dark_secondary">#CE93D8</color>
+    <color name="dark_background">#1C1B1F</color>
+    <color name="dark_surface">#2B2930</color>
+    <color name="dark_error">#CF6679</color>
+    <color name="dark_on_primary">#371E73</color>
+    <color name="dark_on_secondary">#332D41</color>
+    <color name="dark_on_background">#E6E1E5</color>
+    <color name="dark_on_surface">#E6E1E5</color>
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DarkModeApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorError">@color/dark_error</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="colorOnSecondary">@color/dark_on_secondary</item>
+        <item name="colorOnBackground">@color/dark_on_background</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+        <item name="android:statusBarColor">@color/dark_background</item>
+    </style>
+
+</resources>

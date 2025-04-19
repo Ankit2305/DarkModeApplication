@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DarkModeApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorError">@color/light_error</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="colorOnBackground">@color/light_on_background</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="android:statusBarColor">@color/light_primary_variant</item>
+    </style>
+
+    <style name="Theme.DarkModeApplication" parent="Base.Theme.DarkModeApplication" />
+    
+    <!-- Transparent theme for transition activity -->
+    <style name="Theme.DarkModeApplication.Transparent" parent="Theme.DarkModeApplication">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
